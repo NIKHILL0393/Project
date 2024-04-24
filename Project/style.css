@@ -47,10 +47,15 @@ body{
     flex-direction: row;
     justify-content: space-around;
 }
-.third>img{
+.third>a{
     width:40%;
     height: 300px;
 }
-.third>h4{
+
+.third>a>img{
+    width: 100%;
+}
+
+.third>div{
     width: 50%;
 }
